@@ -1,0 +1,104 @@
+Language model created by QuickLM on Sun Apr 15 17:35:43 EDT 2018
+Copyright (c) 1996-2010 Carnegie Mellon University and Alexander I. Rudnicky
+
+The model is in standard ARPA format, designed by Doug Paul while he was at MITRE.
+
+The code that was used to produce this language model is available in Open Source.
+Please visit http://www.speech.cs.cmu.edu/tools/ for more information
+
+The (fixed) discount mass is 0.5. The backoffs are computed using the ratio method.
+This model based on a corpus of 14 sentences and 21 words
+
+\data\
+ngram 1=21
+ngram 2=33
+ngram 3=27
+
+\1-grams:
+-0.9402 </s> -0.3010
+-0.9402 <s> -0.2481
+-2.0864 BACK -0.2481
+-2.0864 CANCEL -0.2975
+-2.0864 FORWARD -0.2481
+-2.0864 FOUR -0.2481
+-1.4843 GO -0.2866
+-2.0864 GOAL -0.2481
+-1.7853 LEFT -0.2481
+-1.7853 MOVE -0.2939
+-2.0864 NO -0.2481
+-2.0864 ONE -0.2481
+-1.4843 POSITION -0.2866
+-1.7853 RIGHT -0.2481
+-1.7853 ROTATE -0.2866
+-2.0864 STOP -0.2481
+-2.0864 THREE -0.2481
+-1.4843 TO -0.2866
+-1.7853 TURN -0.2866
+-2.0864 TWO -0.2481
+-2.0864 YES -0.2481
+
+\2-grams:
+-1.4472 <s> CANCEL 0.0000
+-0.8451 <s> GO 0.0000
+-1.1461 <s> MOVE 0.0000
+-1.4472 <s> NO 0.0000
+-1.1461 <s> ROTATE 0.0000
+-1.4472 <s> STOP 0.0000
+-1.1461 <s> TURN 0.0000
+-1.4472 <s> YES 0.0000
+-0.3010 BACK </s> -0.3010
+-0.3010 CANCEL GOAL 0.0000
+-0.3010 FORWARD </s> -0.3010
+-0.3010 FOUR </s> -0.3010
+-0.3010 GO TO 0.0000
+-0.3010 GOAL </s> -0.3010
+-0.3010 LEFT </s> -0.3010
+-0.6021 MOVE BACK 0.0000
+-0.6021 MOVE FORWARD 0.0000
+-0.3010 NO </s> -0.3010
+-0.3010 ONE </s> -0.3010
+-0.9031 POSITION FOUR 0.0000
+-0.9031 POSITION ONE 0.0000
+-0.9031 POSITION THREE 0.0000
+-0.9031 POSITION TWO 0.0000
+-0.3010 RIGHT </s> -0.3010
+-0.6021 ROTATE LEFT 0.0000
+-0.6021 ROTATE RIGHT 0.0000
+-0.3010 STOP </s> -0.3010
+-0.3010 THREE </s> -0.3010
+-0.3010 TO POSITION 0.0000
+-0.6021 TURN LEFT 0.0000
+-0.6021 TURN RIGHT 0.0000
+-0.3010 TWO </s> -0.3010
+-0.3010 YES </s> -0.3010
+
+\3-grams:
+-0.3010 <s> CANCEL GOAL
+-0.3010 <s> GO TO
+-0.6021 <s> MOVE BACK
+-0.6021 <s> MOVE FORWARD
+-0.3010 <s> NO </s>
+-0.6021 <s> ROTATE LEFT
+-0.6021 <s> ROTATE RIGHT
+-0.3010 <s> STOP </s>
+-0.6021 <s> TURN LEFT
+-0.6021 <s> TURN RIGHT
+-0.3010 <s> YES </s>
+-0.3010 CANCEL GOAL </s>
+-0.3010 GO TO POSITION
+-0.3010 MOVE BACK </s>
+-0.3010 MOVE FORWARD </s>
+-0.3010 POSITION FOUR </s>
+-0.3010 POSITION ONE </s>
+-0.3010 POSITION THREE </s>
+-0.3010 POSITION TWO </s>
+-0.3010 ROTATE LEFT </s>
+-0.3010 ROTATE RIGHT </s>
+-0.9031 TO POSITION FOUR
+-0.9031 TO POSITION ONE
+-0.9031 TO POSITION THREE
+-0.9031 TO POSITION TWO
+-0.3010 TURN LEFT </s>
+-0.3010 TURN RIGHT </s>
+
+\end\

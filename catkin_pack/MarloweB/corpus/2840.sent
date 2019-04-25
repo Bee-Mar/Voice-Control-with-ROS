@@ -1,0 +1,14 @@
+<s> MOVE FORWARD </s>
+<s> MOVE BACK </s>
+<s> STOP </s>
+<s> ROTATE RIGHT </s>
+<s> ROTATE LEFT </s>
+<s> TURN RIGHT </s>
+<s> TURN LEFT </s>
+<s> GO TO POSITION ONE </s>
+<s> GO TO POSITION TWO </s>
+<s> GO TO POSITION THREE </s>
+<s> GO TO POSITION FOUR </s>
+<s> CANCEL GOAL </s>
+<s> YES </s>
+<s> NO </s>
